@@ -1,0 +1,34 @@
+@import "app/styles/variables/variables";
+.questionsSection {
+  width: 100%;
+  label {
+    margin-right: 15px;
+  }
+}
+.bottom {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  @media ($testWindowTablet) {
+    flex-direction: row;
+    gap: unset;
+    justify-content: space-between;
+    align-items: center;
+    >:first-child {
+      align-self: flex-end;
+    }
+  }
+}
+.btns {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  @media ($testWindowTablet) {
+    flex-direction: row;
+  }
+}
+.Alert {
+  margin-bottom: 20px;
+}

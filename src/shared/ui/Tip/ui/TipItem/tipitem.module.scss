@@ -1,0 +1,15 @@
+.tipItem {
+  display: flex;
+  position: relative;
+  padding-left: 2em;
+  align-items: flex-start;
+  &::before {
+    content: '';
+    left: 0;
+    position: absolute;
+    height: 1.35em;
+    width: 1.35em;
+    margin-right: 8px;
+    background: var(--icon-url) center/cover no-repeat;
+  }
+}

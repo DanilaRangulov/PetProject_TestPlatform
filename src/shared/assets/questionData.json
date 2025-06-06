@@ -1,0 +1,638 @@
+{
+  "sections": [
+    {
+      "title": "Раздел 1. Эмоциональная сфера",
+      "elements": [
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_1",
+            "title": "Ребенок часто выражает радость и удовольствие:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_2",
+            "title": "Ребенок быстро переключается с грусти на радость:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_3",
+            "title": "Ребенок часто грустит или плачет без видимой причины:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_4",
+            "title": "Ребенок испытывает страхи и тревоги:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_5",
+            "title": "Ребенок быстро успокаивается после переживаний:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_6",
+            "title": "Ребенок часто проявляет сочувствие к другим:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_7",
+            "title": "Ребенок может выражать свои эмоции словами:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_8",
+            "title": "Ребенок проявляет раздражение или злость без видимой причины:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_9",
+            "title": "Ребенок способен долго радоваться приятным событиям:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q1_10",
+            "title": "Ребенок открыто выражает свои эмоции в присутствии взрослых:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Раздел 2. Социальное взаимодействие",
+      "elements": [
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_1",
+            "title": "Ребенок легко заводит друзей:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_2",
+            "title": "Ребенок поддерживает хорошие отношения с одноклассниками или сверстниками:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_3",
+            "title": "Ребенок предпочитает играть один, а не с другими детьми:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_4",
+            "title": "Ребенок охотно делится своими игрушками и вещами:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_5",
+            "title": "Ребенок проявляет интерес к совместным играм и занятиям:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_6",
+            "title": "Ребенок умеет решать конфликты мирным путем:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_7",
+            "title": "Ребенок часто ссорится с другими детьми:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_8",
+            "title": "Ребенок проявляет инициативу в общении с другими детьми:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_9",
+            "title": "Ребенок принимает участие в коллективных мероприятиях:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q2_10",
+            "title": "Ребенок умеет поддерживать разговор со взрослыми:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Раздел 3. Саморегуляция и поведение",
+      "elements": [
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_1",
+            "title": "Ребенок умеет следовать правилам и инструкциям:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_2",
+            "title": "Ребенок способен самостоятельно выполнять задания до конца:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_3",
+            "title": "Ребенку трудно контролировать свои импульсы:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_4",
+            "title": "Ребенок проявляет настойчивость при выполнении сложных заданий:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_5",
+            "title": "Ребенок быстро отвлекается во время занятий:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_6",
+            "title": "Ребенок может сосредоточиться на задании длительное время:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_7",
+            "title": "Ребенок может спокойно ждать своей очереди:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_8",
+            "title": "Ребенок проявляет агрессию в поведении:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_9",
+            "title": "Ребенок способен самостоятельно регулировать свое поведение:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q3_10",
+            "title": "Ребенок старается избегать нарушений установленных правил:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Раздел 4. Самооценка и уверенность в себе",
+      "elements": [
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_1",
+            "title": "Ребенок уверен в своих силах и способностях:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_2",
+            "title": "Ребенок с интересом берется за новые задачи:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_3",
+            "title": "Ребенок часто сомневается в себе:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_4",
+            "title": "Ребенок радуется своим успехам:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_5",
+            "title": "Ребенок спокойно воспринимает неудачи и ошибки:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_6",
+            "title": "Ребенок готов просить помощи у взрослых, если не справляется:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_7",
+            "title": "Ребенок открыто говорит о своих достижениях:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_8",
+            "title": "Ребенок боится начинать что-то новое из-за страха неудачи:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_9",
+            "title": "Ребенок гордится своими успехами:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        },
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q4_10",
+            "title": "Ребенок охотно делится своими впечатлениями о прошедшем дне:"
+          },
+          "options": [
+            { "label": "Очень редко", "value": "1" },
+            { "label": "Редко", "value": "2" },
+            { "label": "Иногда", "value": "3" },
+            { "label": "Часто", "value": "4" },
+            { "label": "Всегда", "value": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Раздел 5. Самооценка и уверенность в себе",
+      "elements": [
+        {
+          "type": "radio",
+          "content": {
+            "questionId": "q5_1",
+            "title": "Как Вы оцениваете общее эмоциональное состояние вашего ребенка?:"
+          },
+          "options": [
+            { "label": "Отличное", "value": "5" },
+            { "label": "Хорошее", "value": "4" },
+            { "label": "Удовлетворительное", "value": "3" },
+            { "label": "Неудовлетворительное", "value": "2" },
+            { "label": "Очень плохое", "value": "1" }
+          ]
+        },
+        {
+          "type": "text",
+          "content": {
+            "questionId": "q5_2",
+            "title": "Есть ли у Вашего ребенка какие-либо особенности развития или поведения, о которых Вы хотели бы сообщить дополнительно?"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "questionId": "q5_3",
+            "title": "Какие, на Ваш взгляд, сильные стороны и таланты есть у Вашего ребенка?"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "questionId": "q5_4",
+            "title": "Какие, на Ваш взгляд, области требуют особого внимания и развития у Вашего ребенка?"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "questionId": "q5_5",
+            "title": "Опишите эмоциональное состояние ребенка:"
+          }
+        },
+        {
+          "type": "text",
+          "content": {
+            "questionId": "emotionalState",
+            "title": "Опишите эмоциональное состояние ребенка:"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+.DataArea {
+  position: relative;
+}
+.dataArea:nth-child {
+  margin-bottom: 16px
+}
+.customInput {
+  border-radius: 6px;
+  padding: 5px 5px 5px 5px;
+  border: 1px solid #A0A9B8;
+  font-family: 'CirceRounded', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #293244;
+}
+.hasContent {
+  border-color: #6447CF;
+}
+.customInput:focus {
+  outline: none;
+}
+.customCalendar {
+  border-radius: 50%;
+}
+.customPopper {
+  position: relative;
+}
+.customNav {
+  padding: 0 18px 0 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.btnDataPickerNav {
+  border: none;
+  background-color: transparent;
+}
+.selectedDate {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-end;
+}

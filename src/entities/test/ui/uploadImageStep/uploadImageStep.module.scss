@@ -1,0 +1,83 @@
+@import "app/styles/variables/variables";
+.imageContainer {
+  text-align: center;
+  > p {
+    margin-top: 10px;
+  }
+}
+.imagePreview {
+  width: 250px;
+  height: 250px;
+  background-color: red;
+}
+.fileInput {
+  display: none;
+}
+.uploadImageBlock {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+.containersGrid {
+  width: 100%;
+  display: grid;
+  //grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  @media #{$testWindowDesktop}, #{$testWindowTablet} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.uploadBox {
+  //margin: auto 0 ;
+  padding: 10px 10px 10px 10px;
+  background-color: #C7E4FC;
+  //display: inline-block;
+  border-radius: 16px;
+}
+.uploadImageButton {
+  cursor: grab;
+  //width: 250px;
+  //height: 250px;
+  aspect-ratio: 2 / 1;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F6F6F8;
+  @media #{$testWindowDesktop}, #{$testWindowTablet} {
+    aspect-ratio: 1 / 1;
+  }
+}
+.uploadedImagePreview {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  position: relative;
+  .uploadedImage {
+    //position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 16px;
+  }
+}
+.replaceImageIcon {
+  position: absolute;
+  padding: 10px 10px 10px 10px;
+  background-color: #C7E4FC;
+  border-radius: 16px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nextModule {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.Alert {
+  margin-bottom: 32px;
+}

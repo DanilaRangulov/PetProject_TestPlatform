@@ -1,0 +1,108 @@
+@import "app/styles/variables/variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-position: inside;
+  transition: background-color, color 0.4s linear;
+}
+body {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'CirceRounded';
+  src: url('shared/assets/fonts/CirceRounded-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CirceRounded';
+  src: url('shared/assets/fonts/CirceRounded-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CirceRounded';
+  src: url('shared/assets/fonts/CirceRounded-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CirceRounded';
+  src: url('shared/assets/fonts/CirceRounded-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CirceRounded';
+  src: url('shared/assets/fonts/CirceRounded-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CirceRounded';
+  src: url('shared/assets/fonts/CirceRounded-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+.title3 {
+  font-family: 'CirceRounded', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 106%;
+}
+
+.regular16 {
+  font-family: 'CirceRounded', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 135%;
+}
+
+.regular14 {
+  font-family: 'CirceRounded', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.regular12 {
+  font-family: 'CirceRounded', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 135%; /* ~16.2px */
+}
+
+.bold14 {
+  font-family: 'CirceRounded', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 135%;
+}
+.bold18 {
+  font-family: 'CirceRounded', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 135%;
+}
+
+.container {
+  max-width: 1172px;
+  width: 100%;
+  padding: 0 16px;
+  @media(min-width: 1440px) {
+    max-width: 1320px;
+  }
+  @media ($isMobile) {
+    padding: 0;
+    max-width: 100%;
+  }
+}

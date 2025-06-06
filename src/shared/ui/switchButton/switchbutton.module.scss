@@ -1,0 +1,37 @@
+.btn {
+  padding: 9px 24px 9px 24px;
+  border-radius: 16px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background-color 0.3s ease;
+  &:not(.disabled) {
+    cursor: pointer;
+  }
+}
+.backTheme {
+  color: #293244;
+  background-color: #DAEDFD;
+  &:hover:not(.disabled) {
+    background-color: #B5DBFB;
+  }
+}
+.nextTheme {
+  background-color: #45A5F6;
+  color: #FFFFFF;
+  &:hover:not(.disabled) {
+    background-color: #007EE5;
+  }
+}
+.disabled {
+  background-color: #4453711A;
+  color: #44537180;
+}
+svg {
+  width: 1em;
+  height: 1.35em;
+  vertical-align: middle;
+}
